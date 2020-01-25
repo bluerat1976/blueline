@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header, #box-logo, #box-upmenu, #up-contacts, #language {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+
+#header {
+    width: 100%;
+}
+
+#box-logo {
+    padding-left: 30px;
+    max-width: 20%;
+}
+
+#box-upmenu {
+    padding-left: 40px;
+    width: 47%;
+}
+
+#up-contacts {
+    padding: 20px 15px 20px 0;
+    max-width: 23%;
+}
+
+#language {
+    padding: 30px;
+    max-width: 10%;
+}
+
+#language .lan {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 60px;
+    align-items: flex-start;
+    padding-left: 30px;
+    align-items: center;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0697d4;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+#up-contacts p {
+    display: flex;
+    flex-flow: row wrap;
+    
+    align-items: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #215085;;
+    font-weight: bold;
+}
+
+.pict-logo {
+    max-width: 100%;
+}
+
+.upper-menu{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    margin-left: 30px;
+    text-decoration:none;
+    color:#215085;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:18px;
+    font-weight:bold;
+    padding:6px;
+    text-align: center;
+}
+
+.upper-menu:hover{
+     color:rgb(190, 116, 30)
+ }
+
+#box-main {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid #728ba8;
+} 
+
+.box-part {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 40%;
+    border: 1px solid #215085;
+    margin: 30px;
+    align-items: flex-start;
+}
+
+.box-figure {
+    flex-flow: row wrap;
+    flex: 1 1 50%;
+   
+}
+
+.box-figure img {
+  max-width: 100%;
+}
+
+.box-name {
+    flex: 1 1 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color:#215085;
+    border: 1px solid #215085;
+}
+
+h1 {
+    font-size: 26px;
+    color:#0697d4;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color:#0697d4;
+}
