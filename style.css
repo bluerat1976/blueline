@@ -73,7 +73,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-end;
-    margin-left: 40px;
+    margin-left: 34px;
     text-decoration:none;
     color:#5e93b6;
     font-family: sans-serif;
@@ -161,7 +161,6 @@ h2 {
     background-image: linear-gradient(#40759b, #fbfdff);
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
 
 .box-title {
@@ -170,7 +169,6 @@ h2 {
     flex: 1 1 100%;
     align-items: center; 
     padding: 30px;
-
 }
 
 .box-title h4 {
@@ -186,11 +184,26 @@ h2 {
 }
 
 .box-reason-list .reasone {
-    flex: 1 1 23%;
- 
+    flex: 1 1 21%;
+    border: 1px solid #3f5670;
+    padding: 0 10px 20px 10px;
+    margin: 3px;
 }
+
+.reasone button {
+    flex-flow: row wrap;
+    align-items: flex-end;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #005dc7;
+    color: #ffffff;
+    
+}
+
 .box-reason-list .reasone img {
     max-width: 50%;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -200,6 +213,16 @@ h2 {
     align-items: center;
     font-family: sans-serif;
     font-size: 18px;
+    color: #142a33;
+}
+
+.box-reason-list .reasone .text-reasone {
+    margin-top: 4px;
+    flex-flow: row wrap;
+    flex: 1 1 25%;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 15px;
     color: #142a33;
 }
 
